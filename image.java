@@ -7,10 +7,8 @@ public class image {
 	public void imag()
 	{
 		
-		String url=System.getProperty("user.dir")+"\\src\\geckodriver.exe";
-		System.out.println(url);
-		
-		System.setProperty("webdriver.gecko.driver", url);
+	
+		System.setProperty("webdriver.gecko.driver", "D:\\selenium\\geckodriver.exe");
 		
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
